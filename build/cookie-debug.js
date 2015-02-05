@@ -1,8 +1,4 @@
-/*
-Copyright 2015, modulex-cookie@1.0.2
-MIT Licensed
-build time: Mon, 05 Jan 2015 03:07:52 GMT
-*/
+//! Copyright 2015, kissy-cookie@1.0.2 MIT Licensed, build time: Thu, 05 Feb 2015 05:44:59 GMT 
 define("cookie", [], function(require, exports, module) {
 
 /*
