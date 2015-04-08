@@ -6,6 +6,7 @@ KISSY cookie 模块对常用的 cookie 方法进行了封装，可以让你更�
 
 ### 基本使用示例
 
+```javascript
 	var cookie = require('cookie');
 	// set cookie
 	cookie.set('a', 'b');
@@ -13,6 +14,7 @@ KISSY cookie 模块对常用的 cookie 方法进行了封装，可以让你更�
 	cookie.get('a'); // => b
 	// 删除 cookie
 	cookie.remove('a');
+```
 
 ### 一些注意事项
 
