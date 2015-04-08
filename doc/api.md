@@ -1,10 +1,10 @@
 ### get( name )
 
-获取cookie值。
+获取 cookie 值。
 
 #### Parameters:	
 
-* name {String} – cookie的名称
+* name {String} – cookie 的名称
 
 #### Returns:	
 
@@ -12,7 +12,7 @@
 
 ### remove( name, domain, path, secure )
 
-置空cookie值，并立刻过期。
+置空 cookie 值，并立刻过期。
 
 #### Parameters:	
 
@@ -27,8 +27,8 @@
 
 #### Parameters:	
 
-* name {String} – cookie的名称
-* val {String} – cookie的值
+* name {String} – cookie 的名称
+* val {String} – cookie 的值
 * expires {number|date} – 失效时间. number 类型时单位为天，不设置表示生效时间为本次浏览器进程。
 * domain {String} – 域
 * path {String} – 路径
